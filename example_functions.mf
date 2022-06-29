@@ -1,0 +1,31 @@
+val = 150
+
+function printMultOf15 {
+  while(val > 0)
+  {
+    if(val % 15 == 0)
+      print(val)
+
+    val = val - 1
+  }
+}
+
+function sayHello5Times {
+  print("Hello")
+  print("Hello")
+  print("Hello")
+  print("Hello")
+  print("Hello")
+}
+
+a = 5
+b = 15
+
+if(15 > 5) {
+  val = val + 15 * 3
+  print("val set to: " + val)
+}
+
+printMultOf15()
+print("--------------------------")
+sayHello5Times()

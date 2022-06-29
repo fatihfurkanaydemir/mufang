@@ -1,0 +1,46 @@
+val1 = 3
+val2 = 3
+
+print("-----------------------------")
+while(val1 > 0) {
+  while(val2 > 0) {
+    print(val2 - val1)
+    val2 = val2 - 1
+  }
+  val1 = val1 - 1
+  val2 = 4
+}
+
+print("-----------------------------")
+val3 = 50
+while(val3 > 0)
+{
+  if(val3 % 3 == 0 & val3 % 5 == 0)
+    print(val3)
+  
+  val3 = val3 - 1
+}
+print("-----------------------------")
+
+val3 = 100
+while(val3 > 0)
+{
+  if(val3 % 20 == 0 | val3 % 14 == 0)
+    print(val3)
+  
+  val3 = val3 - 1
+}
+print("-----------------------------")
+
+cond1 = 3 > 2 == 1
+if(cond1)
+  print("3 is bigger than 2")
+print("-----------------------------")
+
+cond2 = 4.5 > 15
+if(cond2) {
+  print("4.5 is bigger than 15")
+}
+else {
+  print("4.5 is less than 15")
+}

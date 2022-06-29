@@ -1,0 +1,11 @@
+fileContent = fread("file.txt")
+print("Content: " + fileContent)
+
+var = 5
+while(var > 0) {
+  fileContent = fileContent + var
+  var = var - 1
+}
+
+fprint("out.txt", fileContent)
+print(fileContent + " is written to out.txt")

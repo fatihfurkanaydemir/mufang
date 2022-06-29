@@ -1,0 +1,24 @@
+iVar = 5
+dVar = 16.34
+sVar = "Hello World!"
+
+print(iVar)
+print(dVar)
+print(sVar)
+
+print(iVar + dVar)
+print(dVar + sVar)
+
+sum = sVar + " - " + dVar + " - " + iVar
+print(sum)
+
+print(dVar / iVar)
+print(5 % 3)
+print((15 + 22.5) / 3.2)
+
+print(10 / 2 == 5)
+print(3 <= 2)
+print(3 <= 3)
+
+longVariableName = "This variable name is long"
+print(longVariableName)
